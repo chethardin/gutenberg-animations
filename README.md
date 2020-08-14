@@ -10,9 +10,9 @@ Install like you would any other WordPress plugin.
 
 ## Customize
 
-This plugin uses IntersectionObserver to fire animations when target elements are onscreen. That can be modified in /assets/oberver.js.  
+This plugin uses IntersectionObserver to fire animations when target elements are onscreen. That can be modified in `./assets/observer.js`.  
 
-You can also extend the disallowed array in src/disallowed to further limit which blocks are animatable. Currently, the only disallowed blocks are: 
+You can also extend the disallowed array in `./src/disallowed` to further limit which blocks are animatable. Currently, the only disallowed blocks are: 
 
 ```javascript
 ['core/group', 'core/cover']
